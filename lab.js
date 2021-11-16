@@ -349,16 +349,6 @@ const colors = {
 let colorsCopy = {... colors};
 console.log(colorsCopy);
 
-// function addEverything(...) {
-//   let total = 0
-//   for (var i = 0; i < arguments.length; i++){
-//     total += arguments[i];
-//   }
-//   return total;
-// }
-
-// console.log(addEverything(1, 2, 5, 2, 5, 76, 2, 3));
-
 /*
  Now use the spread operator to combine the following 2 objects into one. 
  Call the new variable helensInfo. 
@@ -526,3 +516,14 @@ myFirstBoat.performMaintenance();
 //Code Here
 
 myFirstBoat.checkSeaworthiness();
+
+
+// function addEverything(...args) {
+//   let total = 0
+//   for (var i = 0; i < arguments.length; i++){
+//     total += arguments[i];
+//   }
+//   return total;
+// }
+
+// console.log(addEverything(1, 2, 5, 2, 5, 76, 2, 3, 1, 2, 3, 5, 9, 7, 9));
